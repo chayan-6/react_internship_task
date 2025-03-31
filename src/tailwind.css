@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* 3 columns */
+    grid-gap: 5px; /* Adds space between boxes */
+    justify-content: center; /* Centering horizontally */
+    align-items: center; /* Centering vertically */
+    margin-top: 20px;
+  }
+  
+  .grid-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
